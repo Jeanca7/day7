@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;6BAC6B;AAE7B;;uCAEuC;AAcvC,IAAI;EAXA,KAAK,EAYmB,IAAI;EAX5B,MAAM,EAAE,KAAS;EACjB,gBAAgB,EAUG,GAAG;EATtB,aAAa,EAAE,GAAG;EAEd,SAAS,EAAE,IAAI;;AAUvB,KAAK;EAfD,KAAK,EAgBoB,KAAK;EAf9B,MAAM,EAAE,IAAS;EACjB,gBAAgB,EAcI,GAAG;EAbvB,aAAa,EAAE,GAAG;EAId,SAAS,EAAE,IAAU",
+"sources": ["challenge_scss.scss"],
+"names": [],
+"file": "challenge_scss.css"
+}

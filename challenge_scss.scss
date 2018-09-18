@@ -1,0 +1,26 @@
+/* SET THE font-size OF THE BUTTON TO BE
+   THE $size DIVIDED BY 10 */
+
+/* BONUS ROUND: IF YOU COMPLETE THAT, THEN
+   CREATE ANOTHER IF STATEMENT TO MAKE SURE THE
+   FONT DOESN'T GO SMALLER THAN 12px */
+
+@mixin newbutton($color, $size) {
+    width: $size;
+    height: $size / 2;
+    background-color: $color;
+    border-radius: 5px;
+    @if ($size / 10 < 12px){
+        font-size: 12px;
+    } @else {
+        font-size: $size / 10;
+    }
+}
+
+.btn{
+    @include newbutton(red, 15px)
+}
+
+.btn2{
+     @include newbutton(red, 150px)
+}

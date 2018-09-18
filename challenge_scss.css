@@ -1,0 +1,20 @@
+/* SET THE font-size OF THE BUTTON TO BE
+   THE $size DIVIDED BY 10 */
+/* BONUS ROUND: IF YOU COMPLETE THAT, THEN
+   CREATE ANOTHER IF STATEMENT TO MAKE SURE THE
+   FONT DOESN'T GO SMALLER THAN 12px */
+.btn {
+  width: 15px;
+  height: 7.5px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 12px; }
+
+.btn2 {
+  width: 150px;
+  height: 75px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 15px; }
+
+/*# sourceMappingURL=challenge_scss.css.map */
